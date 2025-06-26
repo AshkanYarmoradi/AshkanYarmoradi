@@ -1,10 +1,29 @@
-- 👋 Hi, I’m @AshkanYarmoradi
-- 👀 Senior Software Engineer with 8 years’ experience in developing large-scale enterprise applications and application layers. Expert in Both backend and frontend technology. Highly Skilled in Microservice Architect, Messaging Bus, Dockerizing application, .Net Core, ASP.Net Core, EF Core, Git, TPL, PLINQ, TDD. I am seeking a challenging opportunity in a work environment that will utilize my advanced skills, education, extensive training, and many years of experience.
-- 🌱 I’m currently learning azure infrastructure
-- 💞️ I’m looking to collaborate on projects that challenge my knowledge
-- 📫 How to reach me : ashkan@outlook.it
+### Hi there, I'm Ashkan 👋
 
-<!---
-AshkanYarmoradi/AshkanYarmoradi is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+I'm a Senior Software Engineer and Architect passionate about building scalable distributed systems, robust cloud infrastructure, and tools that improve developer experience (DevEx). With a background in .NET, Go, and enterprise SaaS platforms, my focus is on solving complex architectural problems through clean, efficient, and maintainable code.
+
+-----
+
+  * **🔭 I’m currently:** Leading projects on Microsoft Azure, focusing on multi-tenant SaaS architecture , resource orchestration , and CI/CD automation with GitHub Actions.
+  * **🌱 I’m learning:** To deepen my expertise in Microsoft Azure resources.
+  * **💡 I love building tools that help developers. Some of my past projects include:**
+      * An HCL editor built in Go to programmatically manage Terraform configurations.
+      * A serverless solution on GCP to enable conditional or scheduled reruns of GitHub Actions workflows.
+      * A fully automated, API-driven service to manage dedicated IP addresses.
+
+-----
+
+### My Tech Stack
+
+| Languages          | Cloud & DevOps                               | Databases                               | Architecture & Patterns                                 |
+| ------------------ | -------------------------------------------- | --------------------------------------- | ------------------------------------------------------- |
+| C\# (.NET) | AWS, Azure , GCP           | PostgreSQL , SQL Server | Microservices , DDD , CQRS |
+| Go         | Docker, Kubernetes, Terraform | MongoDB , Redis      | Multi-Tenancy , Event-Driven (RabbitMQ) |
+| TypeScript | GitHub Actions , TeamCity      |                                         | API Gateways (Ocelot, Yarp)                   |
+
+-----
+
+### 📫 How to reach me
+
+  * **LinkedIn:** [www.linkedin.com/in/ayarmoradi](https://www.linkedin.com/in/ayarmoradi)
+  * **Email:** ayarmoradi@gmail.com
