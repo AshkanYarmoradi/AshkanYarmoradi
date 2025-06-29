@@ -1,6 +1,6 @@
 ### Hi there, I'm Ashkan 👋
 
-I'm a Senior Software Engineer and Architect based in The Hague, Netherlands, with a passion for building scalable, resilient, and intelligent software systems. With over 8 years of experience, I've moved from crafting large-scale .NET enterprise applications to architecting modern, cloud-native solutions.
+I'm a Senior Software Engineer and Architect based in The Hague, Netherlands, with a passion for building scalable, resilient, and intelligent software systems. With over 10 years of experience, I've moved from crafting large-scale .NET enterprise applications to architecting modern, cloud-native solutions.
 
 My journey is driven by a simple principle: using the right tools to solve complex problems elegantly and efficiently.
 
@@ -31,4 +31,4 @@ I'm always learning and believe in the power of open source. Having recently arc
 
 * 💞️ &nbsp; I’m looking to collaborate on ambitious projects that push the boundaries of cloud and AI.
 * 🤝 &nbsp; I'm open to new opportunities, whether joining a visionary team or partnering with founders on a new venture.
-* 📫 &nbsp; Feel free to reach out: **ashkan@outlook.it** or connect with me on [LinkedIn](https://www.linkedin.com/in/YOUR_LINKEDIN_PROFILE). ---
+* 📫 &nbsp; Feel free to reach out: **ashkan@outlook.it** or connect with me on [LinkedIn](https://www.linkedin.com/in/ayarmoradi/). ---
