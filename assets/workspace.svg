@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title description">
+  <title id="title">Ashkan Yarmoradi — personal workspace</title>
+  <desc id="description">A dark developer workspace with lime typography and an illustrative event-flow diagram. Distributed systems. Developer experience.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#203039" stroke-width="1" opacity=".42"/></pattern>
+    <radialGradient id="glow"><stop stop-color="#c3f86c" stop-opacity=".07"/><stop offset="1" stop-color="#c3f86c" stop-opacity="0"/></radialGradient>
+    <linearGradient id="wire" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c3f86c" stop-opacity=".8"/><stop offset="1" stop-color="#c3f86c" stop-opacity=".2"/></linearGradient>
+  </defs>
+  <style>
+    .mono{font-family:'JetBrains Mono',Consolas,'Liberation Mono',monospace}
+    .name{font-family:'Space Grotesk',Arial,sans-serif;font-weight:700;letter-spacing:-5px}
+    .wireframe{animation:float 4.8s ease-in-out 1;transform-origin:1000px 230px}
+    .signal{stroke-dasharray:10 310;animation:flow 4.8s linear 1 forwards}
+    .cursor{animation:blink .8s step-end 6}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}
+    @keyframes flow{0%{stroke-dashoffset:0;opacity:0}8%{opacity:1}90%{opacity:1}100%{stroke-dashoffset:-640;opacity:0}}
+    @keyframes blink{0%,100%{opacity:1}50%{opacity:.15}}
+    @media(prefers-reduced-motion:reduce){.wireframe,.signal,.cursor{animation:none}.signal{display:none}}
+  </style>
+  <rect x="1" y="1" width="1278" height="438" rx="16" fill="#0b0f14" stroke="#28343d" stroke-width="2"/>
+  <path d="M17 1h1246a16 16 0 0 1 16 16v38H1V17A16 16 0 0 1 17 1" fill="#131b22"/>
+  <path d="M1 55h1278" stroke="#28343d"/>
+  <g fill="#4a5d66"><circle cx="30" cy="28" r="5"/><circle cx="47" cy="28" r="5"/><circle cx="64" cy="28" r="5"/></g>
+  <circle cx="64" cy="28" r="5" fill="#a7ca75"/>
+  <text x="640" y="33" text-anchor="middle" fill="#9eafb7" font-size="12" class="mono">ashkan@workspace: ~</text>
+  <text x="1244" y="33" text-anchor="end" fill="#788992" font-size="10" class="mono">PERSONAL WORKSPACE</text>
+  <rect x="770" y="72" width="480" height="335" fill="url(#grid)"/>
+  <ellipse cx="992" cy="235" rx="265" ry="200" fill="url(#glow)"/>
+  <g class="mono"><circle cx="49" cy="100" r="3" fill="#c3f86c"/><text x="63" y="104" fill="#a8b5bd" font-size="12" letter-spacing="1.3">ENGINEER BY TRADE. BUILDER BY INSTINCT.</text></g>
+  <text x="43" y="199" class="name" fill="#edf0e9" font-size="88">Ashkan</text>
+  <text x="43" y="292" class="name" fill="#c3f86c" font-size="88">Yarmoradi<tspan class="cursor">_</tspan></text>
+  <text x="49" y="338" fill="#b2c0c8" font-size="18" class="mono">Distributed systems. Developer experience.</text>
+  <path d="M49 370h660" stroke="#28343d"/>
+  <text x="49" y="403" class="mono" fill="#c3f86c" font-size="13">~/ashkan.tech</text>
+  <text x="709" y="403" text-anchor="end" class="mono" fill="#94a4ad" font-size="12">THE HAGUE, NETHERLANDS</text>
+  <g fill="none" stroke="#5b784e" stroke-dasharray="3 6"><path d="m838 139 82 48M1080 187l82-48M920 285l-82 48M1080 285l82 48"/></g>
+  <path class="signal" d="m838 139 82 48 80 46 80 52 82 48" fill="none" stroke="#c3f86c" stroke-width="2" opacity="0"/>
+  <g class="wireframe" fill="none" stroke="url(#wire)" stroke-width="1.3">
+    <path d="m1000 122 90 52-90 52-90-52z"/><path d="m1000 138 90 52-90 52-90-52z"/>
+    <path d="m1000 154 90 52-90 52-90-52z"/><path d="m1000 170 90 52-90 52-90-52z"/>
+    <path d="m1000 186 90 52-90 52-90-52z"/><path d="m1000 202 90 52-90 52-90-52z"/>
+    <path d="m1000 218 90 52-90 52-90-52z"/><path d="M1000 122v200M910 174v96M1090 174v96"/>
+    <path d="m1000 184 39 23v45l-39 23-39-23v-45zM961 207l39 23 39-23M1000 230v45" stroke="#c3f86c" fill="#c3f86c" fill-opacity=".025" stroke-width="1.7"/>
+  </g>
+  <g class="mono" text-anchor="middle">
+    <g transform="translate(799 100)"><rect width="78" height="67" rx="6" fill="#111b22" stroke="#394b43"/><text x="39" y="27" fill="#c3f86c" font-size="20">↗</text><text x="39" y="49" fill="#aebdc5" font-size="10">command</text></g>
+    <g transform="translate(1123 100)"><rect width="78" height="67" rx="6" fill="#18221a" stroke="#8dab60"/><text x="39" y="27" fill="#c3f86c" font-size="19">{ }</text><text x="39" y="49" fill="#d6e5cc" font-size="10">domain</text></g>
+    <g transform="translate(799 303)"><rect width="78" height="67" rx="6" fill="#111b22" stroke="#394b43"/><text x="39" y="27" fill="#c3f86c" font-size="20">≡</text><text x="39" y="49" fill="#aebdc5" font-size="9">event store</text></g>
+    <g transform="translate(1123 303)"><rect width="78" height="67" rx="6" fill="#111b22" stroke="#394b43"/><text x="39" y="27" fill="#c3f86c" font-size="18">▦</text><text x="39" y="49" fill="#aebdc5" font-size="9">projection</text></g>
+    <text x="1000" y="403" fill="#788992" font-size="9" letter-spacing="1">A SKETCH OF HOW I THINK</text>
+  </g>
+</svg>
